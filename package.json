@@ -1,0 +1,22 @@
+{
+  "name": "apicadastro",
+  "version": "1.0.0",
+  "description": "Api para cadastro de usuários",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipeM10/APIcadastro.git"
+  },
+  "author": "Filipe Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipeM10/APIcadastro/issues"
+  },
+  "homepage": "https://github.com/FilipeM10/APIcadastro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
