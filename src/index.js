@@ -1,10 +1,12 @@
 import express from 'express'
-import router from './routes/routes.js'
+import AdmRouter from './routes/AdmRoutes.js'
+import cadastroRouter from './routes/cadastrosRoute.js'
 
 const app = express()
 
 app.use(express.json())
-app.use('/cadastro', router)
+app.use('/CadastradosADM', AdmRouter)
+app.use('/cadastrar', cadastroRouter)
 
 export default app
 
